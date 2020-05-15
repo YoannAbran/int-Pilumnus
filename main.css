@@ -1,27 +1,29 @@
-body{
+body {
   background-image: url("img/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   /*background-position: center;*/
 }
-#cadreheader{
+
+#cadreheader {
   height: 600px;
   border: solid red 10px;
 }
- #aboutme{
-   height: 600px;
-   background-color: black;
- }
- #article{
-   height: 600px;
 
- }
+#aboutme {
+  height: 600px;
+  background-color: black;
+}
 
- #imgarticle img{
-   box-shadow: -40px -40px black;
- }
+#article {
+  height: 600px;
+}
 
- #formemail{
-   height: 600px;
-   background-color: black;
- }
+#imgarticle img {
+  box-shadow: -40px -40px black;
+}
+
+#formemail {
+  height: 600px;
+  background-color: black;
+}
