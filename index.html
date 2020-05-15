@@ -12,26 +12,134 @@
 
 
 <body>
+  <!-- tout le body centrer avec col-2 a gauche et a droite -->
+  <!--div avec un h2, un h1, et un texte, col-3 a gauche et droite ,le tout centrer dans un cadre(couleur) avec BG transparent,le cadre passe derriere le BG dan le coin bas droite-->
+  <header class="d-flex container-fluid justify-content-center min-vh-100 col-12 ">
+    <div id="cadreheader" class="d-flex flex-column container mb-auto mt-auto justify-content-center align-items-center col-6  ">
+      <span>Lorem ipsum</span>
+      <span>Travel</span>
+      <span>The inspirational adventures around the world</span>
+    </div>
+  </header>
 
-  <!---->
-  <div class="">
-    <span>Lorem ipsum</span>
-    <span>Travel</span>
-    <span>The inspirational adventures around the world</span>
+
+
+  <!--div about me : 1 row 2div dans un block (couleur noir gris) : 1ere 1 titre 1 texte 1 lien ou bouto ; 2eme 1image qui dépasse verticalement du block  -->
+  <div id="aboutme" class="d-flex container col-8">
+    <div class="d-flex flex-column justify-content-between container col p-5">
+      <div><span class="text-white h1">About me</span></div>
+      <div class="text-white mr-5 pr-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </div>
+    </div>
+    <div class="container col">
+      <img src="img/about.png" alt="">
+    </div>
   </div>
 
 
 
 
+  <!--div article : 1row 3div  avec un titre  centrer audessus des 3div : les 3div ont une img avec une ombre, un titre, 1texte,et 1lien, la div du milieux est décaler vers le bas -->
+  <div class="container d-flex flex-wrap justify-content-center pt-5 mt-5 col-12">
+    <span class="d-flex col-12 justify-content-center container pb-5 mb-5 text-white">Latest articles</span>
+    <div id="article" class="d-flex justify-content-center col-8">
+      <div class="d-flex flex-column">
+        <div id="imgarticle" class="">
+          <img src="img/article3.png" alt="">
+        </div>
+        <span>Lorem ipsum dolor</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+        <a href="#">Read more</a>
+      </div>
+      <div class="d-flex flex-column">
+        <div id="imgarticle" class="">
+          <img src="img/article2.png" alt="">
+        </div>
+        <span>Lorem ipsum dolor</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+        <a href="#">Read more</a>
+      </div>
+      <div class="d-flex flex-column">
+        <div id="imgarticle" class="">
+          <img src="img/article1.png" alt="">
+        </div>
+        <span>Lorem ipsum dolor</span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+        <a href="#">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!--div gallery : div avec 1 titre en haut a gauche avec 7images non ordonnée, et un bouton ou liens centrer-->
+  <div class="container">
+    <span class="text-white">Gallery</span>
+    <div class="container">
+
+
+    <img src="img/gallery7.png" alt="">
+    <img src="img/gallery6.png" alt="">
+    <img src="img/gallery5.png" alt="">
+    <img src="img/gallery4.png" alt="">
+    <img src="img/gallery3.png" alt="">
+    <img src="img/gallery2.png" alt="">
+    <img src="img/gallery1.png" alt="">
+    </div>
+    <span><button type="button" class="btn btn-outline-dark">Dark</button></span>
+  </div>
+
+
+  <!--div contact : 1row 2 div dans un block (couleur noir gris) : 1ere img qui dépasse verticalement du block, 2eme avec un titre, 1 formulaire avec 3element les 2 premier sur la meme row la derniere en dessous sur toute la largeur, et un liens ou bouton-->
+
+  <div id="formemail" class="d-flex container col-8">
+    <div class="container col-6">
+      <img src="img/mail.png" alt="">
+    </div>
+    <div class="container col-6">
+      <span class="text-white">Contact</span>
+      <form>
+        <div class="form-row container">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Your name">
+          </div>
+          <div class="col-6">
+            <input type="email" class="form-control" placeholder="Your email">
+          </div>
+          <div class="col">
+            <textarea class="form-control" id="Textarea" rows="3"></textarea>
+          </div>
+        </div>
+        <span><button type="button" class="btn btn-outline-dark">Dark</button></span>
+      </form>
+    </div>
+
+  </div>
+
+  <!--footer avec logo réseaux sociaux dans un carré avec bordure-->
+<footer>
+  <div class="d-flex container-fluid justify-content-center">
+    <a href="#"><img src="img/FB.png" alt=""></a>
+    <a href="#"><img src="img/twit.png" alt=""></a>
+    <a href="#"><img src="img/insta.png" alt=""></a>
+    <a href="#"><img src="img/pint.png" alt=""></a>
+  </div>
+
+
+</footer>
 
 
 
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

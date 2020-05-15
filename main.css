@@ -2,4 +2,26 @@ body{
   background-image: url("img/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
+  /*background-position: center;*/
 }
+#cadreheader{
+  height: 600px;
+  border: solid red 10px;
+}
+ #aboutme{
+   height: 600px;
+   background-color: black;
+ }
+ #article{
+   height: 600px;
+
+ }
+
+ #imgarticle img{
+   box-shadow: -40px -40px black;
+ }
+
+ #formemail{
+   height: 600px;
+   background-color: black;
+ }
