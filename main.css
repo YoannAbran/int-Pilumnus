@@ -17,10 +17,14 @@ body {
 
 #article {
   height: 600px;
+
 }
 
 #imgarticle img {
   box-shadow: -40px -40px black;
+}
+.articletitle{
+  border-bottom: 2px white solid;
 }
 
 #formemail {
