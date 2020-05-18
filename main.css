@@ -50,6 +50,11 @@ header .h1{
   border-bottom: 2px #ad7835 solid;
   color: #ad7835;
 }
+#readmeart{
+  text-decoration: none;
+  color: #ad7835;
+  text-transform: uppercase;
+}
 
 #formemail {
   height: 600px;
