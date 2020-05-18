@@ -1,18 +1,41 @@
+@font-face {
+  font-family: DroidSerif;
+  src: url("fonts/DroidSerif-WmoY.ttf") format("truetype");
+  src: url("fonts/DroidSerifBold-aMPE.ttf") format("truetype");
+  src: url("fonts/DroidSerifBoldItalic-E1r9.ttf") format("truetype");
+  src: url("fonts/DroidSerifItalic-Odqd.ttf") format("truetype");
+}
+
 body {
+  font-family: DroidSerif; sans-serif;
   background-image: url("img/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   /*background-position: center;*/
 }
-
+header .h1{
+  font-size: 11rem;
+}
 #cadreheader {
-  height: 600px;
-  border: solid red 10px;
+  height: 500px;
+  border: solid #ad7835 10px;
+}
+#underlinetitle{
+  text-decoration: underline;
+}
+#titlesection{
+  color: #ad7835;
+}
+#titleunderline{
+  text-decoration: underline;
+}
+#thirdtext{
+  color: #ad7835;
 }
 
 #aboutme {
   height: 600px;
-  background-color: black;
+  background-color: #373737;
 }
 
 #article {
@@ -21,13 +44,27 @@ body {
 }
 
 #imgarticle img {
-  box-shadow: -40px -40px black;
+  box-shadow: -40px -40px #373737;
 }
 .articletitle{
-  border-bottom: 2px white solid;
+  border-bottom: 2px #ad7835 solid;
+  color: #ad7835;
 }
 
 #formemail {
   height: 600px;
-  background-color: black;
+  background-color: #373737;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+.fab{
+  text-decoration: none;
+  color: #ad7835;
+  font-size: 2rem;
+  width:3rem;
+  height: 3rem;
+  border: 1px solid #ad7835;
+  text-align: center;
+  padding-top: 0.5rem;
 }
