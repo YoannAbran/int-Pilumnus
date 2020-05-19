@@ -15,7 +15,7 @@ body {
 }
 
 header .h1 {
-  font-size:11rem;
+  font-size: 11rem;
 }
 
 #cadreheader {
@@ -92,37 +92,47 @@ header .h1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #373737;
 }
+
 @media (max-width : 1200px) {
   header .h1 {
-    font-size:6rem;
+    font-size: 6rem;
   }
+
   #aboutme {
     min-height: 60vh;
   }
-  #imgabout img{
+
+  #imgabout img {
     padding-bottom: 5%;
   }
+
   #formemail {
     min-height: 60vh;
   }
+
   #formemail img {
     padding-top: 5%;
   }
 }
+
 @media (min-width : 1200px) {
   #aboutme {
     height: 60vh;
   }
-  #imgabout img{
+
+  #imgabout img {
     height: 65vh;
     width: 100%;
   }
+
   #formemail {
     height: 60vh;
   }
+
   #formemail img {
     height: 65vh;
   }
