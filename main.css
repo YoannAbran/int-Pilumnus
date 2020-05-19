@@ -22,12 +22,14 @@ header .h1{
 }
 #underlinetitle{
   text-decoration: underline;
+  text-underline-position: under;
 }
 #titlesection{
   color: #ad7835;
 }
 #titleunderline{
   text-decoration: underline;
+  text-underline-position: under;
 }
 #thirdtext{
   color: #ad7835;
@@ -72,4 +74,13 @@ header .h1{
   border: 1px solid #ad7835;
   text-align: center;
   padding-top: 0.5rem;
+}
+.btn {
+  border :1px solid #ad7835;
+  color:  #ad7835;
+  text-transform: uppercase;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
