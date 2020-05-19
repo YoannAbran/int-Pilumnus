@@ -15,7 +15,7 @@ body {
 }
 
 header .h1 {
-  font-size: 11rem;
+  font-size:11rem;
 }
 
 #cadreheader {
@@ -42,7 +42,6 @@ header .h1 {
 }
 
 #aboutme {
-  min-height: 63vh;
   background-color: #373737;
 }
 
@@ -66,7 +65,6 @@ header .h1 {
 }
 
 #formemail {
-  min-height: 63vh;
   background-color: #373737;
 }
 
@@ -93,4 +91,39 @@ header .h1 {
   padding-right: 2.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.btn:hover{
+  background-color: #373737;
+}
+@media (max-width : 1200px) {
+  header .h1 {
+    font-size:6rem;
+  }
+  #aboutme {
+    min-height: 60vh;
+  }
+  #imgabout img{
+    padding-bottom: 5%;
+  }
+  #formemail {
+    min-height: 60vh;
+  }
+  #formemail img {
+    padding-top: 5%;
+  }
+}
+@media (min-width : 1200px) {
+  #aboutme {
+    height: 60vh;
+  }
+  #imgabout img{
+    height: 65vh;
+    width: 100%;
+  }
+  #formemail {
+    height: 60vh;
+  }
+  #formemail img {
+    height: 65vh;
+  }
 }
