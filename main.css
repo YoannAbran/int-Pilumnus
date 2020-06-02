@@ -28,11 +28,11 @@ header .h1 {
   text-underline-position: under;
 }
 
-#titlesection {
+.titlesection {
   color: #ad7835;
 }
 
-#titleunderline {
+.titleunderline {
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -45,11 +45,11 @@ header .h1 {
   background-color: #373737;
 }
 
-#article {
+.article {
   min-height: 63vh;
 }
 
-#imgarticle img {
+.imgarticle img {
   box-shadow: -40px -40px #373737;
 }
 
@@ -58,7 +58,7 @@ header .h1 {
   color: #ad7835;
 }
 
-#readmeart {
+.readmeart {
   text-decoration: none;
   color: #ad7835;
   text-transform: uppercase;
